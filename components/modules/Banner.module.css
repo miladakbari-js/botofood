@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.left h2{
+    border-bottom: 3px solid #53c60b;
+    width: fit-content;
+    margin: 20px 0;
+}
+.left p{
+    font-weight: 500;
+    margin-bottom: 16px 0;
+}
+.left span{
+    color: grey;
+    text-align: justify;
+}
+.left a{
+    width: fit-content;
+    background-color: #53c60b;
+    color: #fff;
+    font-size: 1rem;
+    margin-top: 30px;
+    padding:10px 30px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.right img{
+    width: 450px;
+}

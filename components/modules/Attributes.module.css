@@ -1,0 +1,32 @@
+.container {
+  margin-top: 100px;
+ 
+}
+.container h3 {
+  color: #53c60b;
+  font-size: 1.5rem;
+  margin: 24px 0px;
+}
+.subContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.subContainer div {
+  width: 150px;
+  border-radius: 10px;
+  padding: 25px 20px 20px;
+  text-align: center;
+  box-shadow: rgba(92, 245, 115, 0.123) 0px 4px 16px,
+    rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    margin-top: 20px;
+}
+
+.subContainer p{
+    margin-top: 20px;
+    font-weight: 600;
+}
+@media (max-width: 900px){
+    .subContainer{
+        flex-wrap: wrap;
+    }
+}
